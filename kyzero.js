@@ -107,4 +107,4 @@ kyzero.on("message", async message => {
 
 });
 
-kyzero.login("NDQxMzU2NjkwNjg4ODM1NTg2.DcvE-A.2bBXMXFqx4yKP3kJzq1_4D5rS3w");
+kyzero.login(process.env.KYZERO_TOKEN);
