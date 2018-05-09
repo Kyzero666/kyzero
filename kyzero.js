@@ -107,4 +107,4 @@ kyzero.on("message", async message => {
 
 });
 
-kyzero.login(process.env.KYZERO_TOKEN);
+kyzero.login("process.env.KYZERO_TOKEN");
